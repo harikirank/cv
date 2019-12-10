@@ -1,0 +1,175 @@
+body {
+    color: #40514E;
+  font-family: serif;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+div {
+  border-color: red;
+
+}
+
+.para {
+  font-size: 2.2rem;
+  font-weight: normal;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  margin:50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.85rem;
+  padding: 20px 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 20px;
+  text-decoration:none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p{
+  line-height: 2;
+}
+
+/* ------------class selectors-------------------- */
+
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.database {
+  height: 320px;
+  width: 320px;
+}
+
+.webimage {
+  border-radius: 10%;
+  height: 300px;
+  width: 300px;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  margin-top: 0;
+  padding-top: 100px;
+  position: relative;
+  border-bottom: 0;
+}
+hr{
+  border-style: dotted none none none;
+  border-width: 7px;
+  color: #EAF6F6;
+  height: 0;
+  width: 5%;
+  margin: 100px auto;
+
+}
+
+.short-description {
+  margin-bottom: 100px;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.middle-container {
+  padding: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.profile-pic {
+  border-radius: 70%;
+  height: 200px;
+  width: 200px;
+}
+
+.web {
+  text-decoration: underline;
+}
+
+.webdev-image{
+  float: left;
+  height: 25%;
+  margin-right: 30px;
+  width: 25%;
+}
+.db-image{
+  float: right;
+  height: 25%;
+  margin-left: 30px;
+  width: 25%;
+}
+.bottom-cloud {
+  left: 400px;
+  position: absolute;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #0aaffc 5%, #1e7dd1 100%);
+	background-color:#0aaffc;
+	border-radius:10px;
+  box-shadow: 0 0 0 2px #9fb4f2;
+  color:#ffffff;
+  cursor:pointer;
+	display:inline-block;
+  font-family: 'Montserrat', sans-serif;
+	font-size:18px;
+	padding:13px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #1e7dd1 5%, #0aaffc 100%);
+	background-color:#1e7dd1;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* ---------------------------button code generattor css -------------- */
+/*
+.webdev-description {
+clear: left;
+}
+
+.db-description {
+clear: right;
+} */
